@@ -58,14 +58,14 @@
     --font-sans: 'Work Sans Variable', 'Work Sans', system-ui, sans-serif;
 
 
-    --sidebar-background: 40 30% 95%;
-    --sidebar-foreground: 30 10% 25%;
-    --sidebar-primary: 18 45% 45%;
-    --sidebar-primary-foreground: 40 33% 97%;
-    --sidebar-accent: 35 40% 92%;
-    --sidebar-accent-foreground: 30 10% 20%;
-    --sidebar-border: 30 15% 88%;
-    --sidebar-ring: 18 45% 45%;
+    --sidebar-background: 37 45% 93%;
+    --sidebar-foreground: 16 40% 21%;
+    --sidebar-primary: 21 40% 39%;
+    --sidebar-primary-foreground: 36 56% 96%;
+    --sidebar-accent: 37 47% 88%;
+    --sidebar-accent-foreground: 16 40% 21%;
+    --sidebar-border: 34 28% 85%;
+    --sidebar-ring: 21 40% 39%;
   }
 
   .dark {
@@ -97,12 +97,14 @@
     --input: 30 10% 20%;
     --ring: 18 50% 55%;
 
-    --terracotta: 18 50% 55%;
-    --terracotta-light: 18 50% 65%;
-    --warm-cream: 30 10% 10%;
-    --warm-taupe: 30 10% 30%;
-    --charcoal: 40 20% 90%;
-    --linen: 30 10% 15%;
+    --terracotta: 24 38% 52%;
+    --terracotta-light: 28 40% 62%;
+    --warm-cream: 15 33% 11%;
+    --warm-taupe: 20 15% 32%;
+    --charcoal: 36 56% 96%;
+    --espresso: 16 40% 21%;
+    --linen: 16 30% 15%;
+    --sand: 16 30% 20%;
 
     --sidebar-background: 30 10% 12%;
     --sidebar-foreground: 40 20% 90%;

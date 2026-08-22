@@ -59,6 +59,8 @@ export default {
         taupe: "hsl(var(--warm-taupe))",
         charcoal: "hsl(var(--charcoal))",
         linen: "hsl(var(--linen))",
+        sand: "hsl(var(--sand))",
+        espresso: "hsl(var(--espresso))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
