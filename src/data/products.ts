@@ -1,3 +1,15 @@
+import walnutArmchair1 from "@/assets/products/walnut-armchair-1.jpg";
+import walnutArmchair2 from "@/assets/products/walnut-armchair-2.jpg";
+import walnutCoffeeTable1 from "@/assets/products/walnut-coffee-table-1.jpg";
+import walnutCoffeeTable2 from "@/assets/products/walnut-coffee-table-2.jpg";
+import walnutBookshelf from "@/assets/products/walnut-bookshelf-1.jpg";
+import walnutSideboard from "@/assets/products/walnut-sideboard.jpg";
+import walnutBedFrame from "@/assets/products/walnut-bed-frame.jpg";
+import walnutMirror from "@/assets/products/walnut-mirror.jpg";
+import juteRug from "@/assets/products/jute-rug-1.jpg";
+import ceramicVases from "@/assets/products/ceramic-vases-set.jpg";
+import rattanBaskets from "@/assets/products/rattan-baskets.jpg";
+
 export interface Collection {
   id: string;
   name: string;
@@ -298,6 +310,123 @@ export const products: Product[] = [
       "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=800&q=80",
       "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&q=80",
     ],
+  },
+  // ===== The Walnut Edit =====
+  {
+    id: "solace-armchair",
+    name: "Solace Armchair",
+    slug: "solace-armchair",
+    collection: "furniture",
+    price: 1850,
+    description: "Solid walnut frame cradling cream bouclé",
+    longDescription: "The Solace Armchair pairs a hand-shaped solid walnut frame with a deep, cream bouclé seat. Every joint is cut and fitted by hand, the arms sanded through eight grits until the grain feels like river stone. Low, wide and quietly generous — a chair built for long evenings and longer conversations.",
+    materials: "Solid American walnut, cream bouclé, feather-down cushions",
+    dimensions: "78cm width × 82cm depth × 74cm height",
+    images: [walnutArmchair1, walnutArmchair2],
+    featured: true,
+    new: true,
+  },
+  {
+    id: "grove-coffee-table",
+    name: "Grove Coffee Table",
+    slug: "grove-coffee-table",
+    collection: "furniture",
+    price: 1290,
+    description: "A single walnut slab on tapered legs",
+    longDescription: "Cut from a single board of black walnut, the Grove table keeps its live edge and the knots the tree earned. Hand-rubbed with three coats of natural oil, the surface deepens in colour with every year of use. Imperfection is not a flaw here — it is the record.",
+    materials: "Solid black walnut, natural hardwax oil",
+    dimensions: "120cm length × 65cm width × 40cm height",
+    images: [walnutCoffeeTable1, walnutCoffeeTable2],
+    featured: true,
+  },
+  {
+    id: "monolith-bookshelf",
+    name: "Monolith Bookshelf",
+    slug: "monolith-bookshelf",
+    collection: "furniture",
+    price: 2800,
+    description: "Sculptural open shelving in solid walnut",
+    longDescription: "Monolith is a study in weight and air. Thick walnut planks are joined with hidden dowels so the shelves appear to float within the frame, holding books, ceramics and shadow in equal measure. It arrives with the maker's stamp burned into the lower rail.",
+    materials: "Solid walnut, brass wall anchors",
+    dimensions: "180cm height × 90cm width × 35cm depth",
+    images: [walnutBookshelf],
+    new: true,
+  },
+  {
+    id: "low-profile-sideboard",
+    name: "Low Profile Sideboard",
+    slug: "low-profile-sideboard",
+    collection: "furniture",
+    price: 2100,
+    description: "Grain-matched doors, hand-cut joinery",
+    longDescription: "The doors of this sideboard are cut in sequence from one board so the grain runs unbroken across the whole face — a detail that takes an extra day at the bench and lasts a lifetime. Inside, adjustable shelves in pale ash contrast against the dark walnut shell.",
+    materials: "Solid walnut, ash interior, soft-close hardware",
+    dimensions: "180cm length × 45cm depth × 65cm height",
+    images: [walnutSideboard],
+    featured: true,
+  },
+  {
+    id: "nocturne-bed-frame",
+    name: "Nocturne Bed Frame",
+    slug: "nocturne-bed-frame",
+    collection: "furniture",
+    price: 3200,
+    description: "A low walnut platform with a slatted headboard",
+    longDescription: "Nocturne sits low and calm, its slatted headboard casting soft striped shadow across the wall at dusk. Mortise-and-tenon joinery means no hardware creaks, no wobble — just solid wood doing what solid wood has always done.",
+    materials: "Solid walnut, slatted wood base",
+    dimensions: "Queen — 215cm × 165cm × 95cm headboard height",
+    images: [walnutBedFrame],
+  },
+  {
+    id: "round-walnut-mirror",
+    name: "Round Walnut Mirror",
+    slug: "round-walnut-mirror",
+    collection: "objects",
+    price: 420,
+    description: "Thick steam-bent frame around clear glass",
+    longDescription: "A single length of walnut is steam-bent into a perfect circle, its seam joined so cleanly you must search to find it. Lean it against a wall or hang it — either way it gathers light and gives the room a second window.",
+    materials: "Steam-bent walnut, low-iron mirror glass",
+    dimensions: "80cm diameter × 4cm depth",
+    images: [walnutMirror],
+    new: true,
+  },
+  {
+    id: "hand-woven-jute-rug",
+    name: "Hand-woven Jute Rug",
+    slug: "hand-woven-jute-rug",
+    collection: "textiles",
+    price: 850,
+    description: "Natural fibre, woven on a floor loom",
+    longDescription: "Woven from undyed jute on a traditional floor loom, this rug carries the small irregularities of handwork in every row. Underfoot it is firm and cool; in the room it grounds furniture with the honest texture of a natural fibre left as it grew.",
+    materials: "100% hand-spun jute, cotton warp",
+    dimensions: "240cm × 170cm",
+    images: [juteRug],
+    featured: true,
+  },
+  {
+    id: "terra-vase-set",
+    name: "Terra Vase Set",
+    slug: "terra-vase-set",
+    collection: "ceramics",
+    price: 260,
+    description: "Three hand-thrown vessels in earth glazes",
+    longDescription: "A trio of hand-thrown vases finished in clay, oatmeal and deep walnut glazes. Each is fired twice, and each emerges slightly different from its siblings — the kiln always has an opinion. Group them on a shelf or let one stand alone.",
+    materials: "Stoneware, matte earth glazes",
+    dimensions: "18cm, 24cm and 30cm heights",
+    images: [ceramicVases],
+    new: true,
+  },
+  {
+    id: "rattan-storage-baskets",
+    name: "Rattan Storage Baskets",
+    slug: "rattan-storage-baskets",
+    collection: "objects",
+    price: 180,
+    description: "A nesting pair, woven by hand",
+    longDescription: "Woven by hand from natural rattan over a sturdy frame, this nesting pair keeps blankets, firewood or clutter out of sight without hiding its own craft. The weave tightens slightly with age, growing sturdier as it goes.",
+    materials: "Natural rattan, hardwood frame",
+    dimensions: "45cm and 35cm diameters",
+    images: [rattanBaskets],
   },
 ];
 
