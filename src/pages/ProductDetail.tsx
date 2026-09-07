@@ -1,10 +1,11 @@
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, ChevronLeft, ChevronRight, ArrowRight, ShoppingBag } from "lucide-react";
+import { Heart, ChevronLeft, ChevronRight, ArrowRight, ShoppingBag, Box } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ProductCard } from "@/components/ProductCard";
 import { QuantitySelector } from "@/components/QuantitySelector";
+import { Model3DViewer } from "@/components/Model3DViewer";
 import { getProductBySlug, getRelatedProducts, collections } from "@/data/products";
 import { useWishlist } from "@/hooks/useWishlist";
 import { useCart } from "@/hooks/useCart";
@@ -110,7 +111,7 @@ const ProductDetail = () => {
         <div className="container-full">
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-20">
             {/* Image Gallery — Takes 7 columns */}
-            <div className="lg:col-span-7 space-y-4">
+            <div className="lg:col-span-7 space-y-6">
               {/* Main Image */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted/30 group cursor-zoom-in">
                 <AnimatePresence mode="wait">
@@ -190,6 +191,22 @@ const ProductDetail = () => {
                       />
                     </button>
                   ))}
+                </div>
+              )}
+
+              {/* 3D Model Viewer */}
+              {product.model3dUrl && (
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3 pb-4 border-b border-border">
+                    <Box className="w-5 h-5 text-primary" />
+                    <h3 className="text-[11px] font-semibold tracking-[0.3em] uppercase text-foreground">
+                      View in 3D
+                    </h3>
+                  </div>
+                  <Model3DViewer src={product.model3dUrl} title={`${product.name} — 3D View`} />
+                  <p className="text-xs text-muted-foreground">
+                    Click and drag to rotate. Use the fullscreen button for an immersive view.
+                  </p>
                 </div>
               )}
             </div>
