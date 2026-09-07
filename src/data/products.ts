@@ -32,6 +32,7 @@ export interface Product {
   images: string[];
   featured?: boolean;
   new?: boolean;
+  model3dUrl?: string;
 }
 
 export const collections: Collection[] = [
