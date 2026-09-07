@@ -32,6 +32,7 @@ export interface Product {
   images: string[];
   featured?: boolean;
   new?: boolean;
+  model3dUrl?: string;
 }
 
 export const collections: Collection[] = [
@@ -427,6 +428,21 @@ export const products: Product[] = [
     materials: "Natural rattan, hardwood frame",
     dimensions: "45cm and 35cm diameters",
     images: [rattanBaskets],
+  },
+  // 3D Configurator Showcase
+  {
+    id: "walnut-lounge-chair-3d",
+    name: "Walnut Lounge Chair — 3D",
+    slug: "walnut-lounge-chair-3d",
+    collection: "furniture",
+    price: 1850,
+    description: "Interactive 3D model of our walnut lounge chair",
+    longDescription: "Explore every angle of our signature walnut lounge chair in this interactive 3D viewer. Rotate, zoom and inspect the joinery, grain and upholstery as if it were in front of you. The model loads directly from our configurator partner and updates in real time.",
+    materials: "Solid American walnut, cream bouclé",
+    dimensions: "78cm width × 82cm depth × 74cm height",
+    images: [walnutArmchair1, walnutArmchair2],
+    new: true,
+    model3dUrl: "https://furnimesh.com/iframe?glb=https://storage.googleapis.com/furnimesh-3d/gbl-files/xSUhtOSGZ2DWgnwpU2kya.glb&userId=",
   },
 ];
 
