@@ -104,6 +104,9 @@ const Index = () => {
         </motion.div>
       </section>
 
+      {/* Search & Filter the Catalog */}
+      <CatalogExplorer />
+
       {/* Featured Collection */}
       <section className="py-20 md:py-28">
         <div className="container-full">
