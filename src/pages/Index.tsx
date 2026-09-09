@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { Layout } from "@/components/Layout";
 import { ProductCard } from "@/components/ProductCard";
 import { CollectionCard } from "@/components/CollectionCard";
+import { CatalogExplorer } from "@/components/CatalogExplorer";
 import { collections, getNewProducts, products } from "@/data/products";
 import { Button } from "@/components/ui/button";
 
