@@ -9,6 +9,26 @@ import walnutMirror from "@/assets/products/walnut-mirror.jpg";
 import juteRug from "@/assets/products/jute-rug-1.jpg";
 import ceramicVases from "@/assets/products/ceramic-vases-set.jpg";
 import rattanBaskets from "@/assets/products/rattan-baskets.jpg";
+import noirFloorLamp1 from "@/assets/products/noir-floor-lamp-1.jpg";
+import noirFloorLamp2 from "@/assets/products/noir-floor-lamp-2.jpg";
+import petalWallSconce1 from "@/assets/products/petal-wall-sconce-1.jpg";
+import petalWallSconce2 from "@/assets/products/petal-wall-sconce-2.jpg";
+import branchChandelier1 from "@/assets/products/branch-candle-chandelier-1.jpg";
+import branchChandelier2 from "@/assets/products/branch-candle-chandelier-2.jpg";
+import grandChandelier1 from "@/assets/products/grand-crystal-chandelier-1.jpg";
+import grandChandelier2 from "@/assets/products/grand-crystal-chandelier-2.jpg";
+import clusterGlobeLamp1 from "@/assets/products/cluster-globe-lamp-1.jpg";
+import clusterGlobeLamp2 from "@/assets/products/cluster-globe-lamp-2.jpg";
+import orbitPendant1 from "@/assets/products/orbit-linear-pendant-1.jpg";
+import orbitPendant2 from "@/assets/products/orbit-linear-pendant-2.jpg";
+import patinaDomeLamp1 from "@/assets/products/patina-dome-table-lamp-1.jpg";
+import patinaDomeLamp2 from "@/assets/products/patina-dome-table-lamp-2.jpg";
+import duneLamp1 from "@/assets/products/dune-sculptural-lamp-1.jpg";
+import duneLamp2 from "@/assets/products/dune-sculptural-lamp-2.jpg";
+import totemLamp1 from "@/assets/products/totem-sculpture-lamp-1.jpg";
+import totemLamp2 from "@/assets/products/totem-sculpture-lamp-2.jpg";
+import verdiColumnLamp1 from "@/assets/products/verdi-column-lamp-1.jpg";
+import verdiColumnLamp2 from "@/assets/products/verdi-column-lamp-2.jpg";
 
 export interface Collection {
   id: string;
